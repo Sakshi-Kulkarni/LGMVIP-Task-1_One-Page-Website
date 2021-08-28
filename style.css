@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+.body {
+    background-color: #12172b;
+    font-family: "Poppins", sans-serif;
+  }
+  /* flex css start */
+
+  .container {
+     color: white;
+     min-height:650px;
+  min-width: 800;
+  }
+  .navbar-brand {
+    font-size: 28px;
+    text-shadow: 1px 1px 3px #000;
+    margin-left:180px;
+  }
+
+  .nav-item {
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 30px;
+      text-shadow: 1px 1px 3px #000;}
+      .nav-item:hover{
+        color: #faea06;
+      }
+.first_section_heading
+{
+  margin-top: 120px;
+  margin-left:180px;
+
+      margin-bottom: 25px;
+      color: white;
+      letter-spacing: 1px;
+      font-weight: 800 !important;
+      text-shadow: 1px 1px 3px #000;
+}    
+.first_section_heading p{
+  font-weight: 400 !important;
+  color: #fff;
+  font-size: 15px;
+  margin-left:130px;
+
+}
+body .btn-warning {
+  background: #ffec40;
+  font-size: 12px;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #57077c;
+}
+
+body .btn-primary {
+  background: #57077c;
+  font-size: 12px;
+  padding: 10px 15px;
+  font-weight: 700;
+}
+
+body .btn-primary:hover {
+  background:  #ffec40;
+  color:#57077c;
+}
+body .btn-warning:hover{
+  background: #57077c;
+  color:#ffec40 ;
+
+}
+
+.symbols {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 0 auto;
+  background: rgb(87, 7, 124);}
+  .symbols svg{
+    color: #fff;
+    height: 30px;
+    width:60px;
+    margin-top:23px; 
+  margin-left:10px    ;
+
+}
+  .symbols:hover{
+    background: rgb(112, 13, 158);
+  }
+  .bg-warning {
+    background: rgb(255, 241, 118) !important;
+  }
+  .navbar-toggler-icon{
+
+    background-image: url(
+  "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    opacity:0.7;
+  }
+  
+  /* section2 */
+  .row {
+    --bs-gutter-x: -28.5rem;
+   }
+  #second_part{
+    padding-top: -6%;
+    padding-bottom: -10%;
+  }
+  .text-center h2{
+    font-size:40px;
+     
+  }
+  .second_part_data{
+  padding: 0 10%;
+  }
+  .second_part_image{
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 8 10%;
+
+  }
+  .lead {
+    font-size: 27px;
+    color: rgb(151, 151, 151);
+  }
+  .second_section_card{
+    margin: 60px;
+ 
+   }
+   .btn-warning{
+    padding: 0 10% 5% 10%;
+
+   }
+  .second__section_div_card_heading{
+    font-weight: 700;
+    padding-top:10px;
+    padding-left: 37px;
+    padding-bottom: 10px;
+    color:  purple;
+   }
+  .second__section_div_card_text{
+      font-weight: 15px;
+  }
+  .bg-secondary {
+    background-color: #6c757d!important;
+}
+    /* project-section */
+    .btn-light{
+      font-size: 12px;
+  padding: 10px 15px;
+  font-weight: 700;
+  background-color: white;
+    }
+    .projects_section_button:hover{
+      background-color:rgb(112, 13, 158) ;
+      color: whitesmoke;
+    }
+    .card:hover{
+      background: gray;
+      color:#faea06
+    }
+    .container-video{
+      background-color:  rgb(112, 13, 158);
+       height: 550px;
+    }
+    /*  video section */
+     
+    /* team section */
+.photo{
+  justify-content: center;
+  position: relative !important;
+  width: 180px;
+  max-width: 180px;
+}
+.photo img{
+  border-radius: 100%;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle{
+  border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:160px;
+     width:160px;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: rgba(92, 12, 129, 0.61);
+}
+.photo:hover img {
+  opacity: 0.2;
+}
+.photo:hover .middle {
+  opacity: 1;
+}
+.links-social a {
+  color: white;
+  font-size: 30px;
+  padding-right: 15px ;
+  position: relative;
+  left: 10px;
+  top: 67px;
+}
+  /* life in zippy */
+  #LifeInZippy{
+  background-color: rgb(211, 211, 211);
+  padding-bottom: 2%;
+  }
+   
+  .collection{
+    max-width:100%;
+     cursor: pointer;
+    align-items: center;
+    position: relative;
+  }
+  .ImgCollection{
+    object-fit: cover;
+    max-width: 150px;
+    max-height: 600px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin: 10px;
+    margin-left: 20px;
+    align-items: center;
+  }
+.ImgCollection:hover {
+	opacity:1;
+  transform: scale(2);
+}
+#slide-wrapper{
+	max-width: 900px;
+  width: 650px;
+  margin: 0 auto;
+	display: flex;
+	min-height: 250px;
+	align-items: center;
+}
+
+#slider{
+	width: 900rem;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+
+}
+
+#slider::-webkit-scrollbar {
+		display: none;
+}
+
+.arrow{
+	width: 30px;
+	height: 87px;
+	cursor: pointer;
+	transition: .3s;
+  background-color: #000000;
+}
+.arrow:hover{
+	background-color:    indigo;
+}
+.btn-secondary{
+  background: #e9eaeb;
+  font-size: 12px;
+  padding: 10px 15px;
+  font-weight: bold;}
+  
+  .btn-secondary:hover{
+    background: #cbcdce;
+  }
+  /*contact section starts*/
+  input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-top:0px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .contact_section_label{
+    font-size: 15px;
+    font-weight: bold !important;
+    color: #000;
+    width: 50%;
+
+  }
+  .contact_section_label1{
+    font-size: 35px;
+    font-weight: bold !important;
+    color:   indigo;
+    width: 50%;
+  }
+  input[type=submit] {
+    background-color:   indigo;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width:50%;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color:  rgba(80, 14, 110, 0.61);
+  }
+  
+  /* Style the container/contact section */
+  
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    padding: 20px;
+
+  }
+ 
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ .credit{
+   color:#e9eaeb;
+  background-color:indigo ;
+text-align: center;
+padding: 20px; 
+font-size:20px ;
+margin-bottom:0px;}
+/*----------------------reponsive code-------------------------------*/
+@media (max-width: 1270px){
+  .first_section_heading{
+    font-size: 2rem;font-weight: 600;
+
+  }
+  .first_section_para{
+    font-size: 14px;
+
+  }
+}
