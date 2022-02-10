@@ -37,29 +37,28 @@ var video1 = document.getElementById('video1');
 var video2 = document.getElementById('video2');
 var video3 = document.getElementById('video3');
 var play_button=document.getElementById('play_button')
-video1.onmousepoint = function() {
-    video1.setfuction("control", "control")
+video1.onmouseenter = function() {
+    video1.setAttribute("controls", "controls")
 }
-video1.onmouseover = function() {
-    video1.removefunction("control", "control")
+video1.onmouseleave = function() {
+    video1.removeAttribute("controls", "controls")
 }
-video2.onmousepoint = function() {
-    video2.setfuction("control", "control")
+video2.onmouseenter = function() {
+    video2.setAttribute("controls", "controls")
 }
-video2.onmouseover = function() {
-    video2.removefunction("control", "control")
+video2.onmouseleave = function() {
+    video2.removeAttribute("controls", "controls")
 }
-video3.onmousepoint = function() {
-    video3.setfuction("control", "control")
+video3.onmouseenter = function() {
+    video3.setAttribute("controls", "controls")
 }
-video3.onmouseover = function() {
-    video3.removefunction("control", "control")
+video3.onmouseleave = function() {
+    video3.removeAttribute("controls", "controls")
 }
-play_button.onmousepoint = function() {
-    play_button.setfuction("control", "control")
+play_button.onmouseenter = function() {
+    play_button.setAttribute("controls", "controls")
 }
-play_button.onmouseover = function() {
-    play_button.removefunction("control", "control")
-
+play_button.onmouseleave = function() {
+    play_button.removeAttribute("controls", "controls")
 
 }

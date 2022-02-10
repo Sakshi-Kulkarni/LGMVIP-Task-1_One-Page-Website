@@ -346,13 +346,31 @@ padding: 20px;
 font-size:20px ;
 margin-bottom:0px;}
 /*----------------------reponsive code-------------------------------*/
-@media (max-width: 1270px){
+@media screen and (max-width: 428px){
+  .title{
+    margin-left:10px !important;
+  }
+  .banner-image{
+    background-size: center;
+    max-width:100%;
+    height:100%;
+  }
   .first_section_heading{
-    font-size: 2rem;font-weight: 600;
-
+    font-size: 2rem;
+    font-weight: 600 !important;
+    margin-left:10px !important;
   }
   .first_section_para{
     font-size: 14px;
+    margin-left:10px !important;
+
+  }
+  .first_section_buttons{
+    margin-right:0px !important;
+  }
+  .second_part_data{
+    font-size: small !important;
+    margin-left: 0px !important;
 
   }
 }

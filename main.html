@@ -13,12 +13,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="icon" href="./Images/icon3.png"size="16*16">
  
-        <title>ZIPPY</title>
+        <title class="title">ZIPPY</title>
 </head>
 
 <body style="overflow-x:hidden">
     <!-- 1st flex  -->
-    <div  
+    <div class="banner-image" 
         style="background:url(./Images/FlexImage/fleximg2.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -59,9 +59,11 @@
             </div>
             <p class="first_section_para"style="margin-left:180px;">This is the website version of Lorem ipsum dolor sit Lorem<br> amet consectetur
                 adipisicing elit. </p>
+                <div class="first_section_buttons"> 
             <button class="btn btn-warning rounded-0 border-0 text-uppercase" style="margin-left:180px;">Learn
                 More</button>
             <button class="btn btn-primary rounded-0 border-0 text-uppercase">Learn More</button>
+        </div>
             <br><br><br><br><br><br>
         </div>
     </div>
@@ -73,7 +75,8 @@
             <h2> <strong>Welcome to Zippy</strong> </h2>
         </div>
         <div class="heading-underline"></div>
-
+         
+          </style>
         <br><br>
         <div class="second_part_data">
 
@@ -88,8 +91,15 @@
                 <div class="col-md-6">
                     <img src="./Images/umbrella.svg" alt="page_img" class="second_part_image">
                 </div>
-
+                 
             </div>
+            <style>
+                @media (max-width:428px) {
+                  .second_part_data{
+                       margin-right:100px !important;
+                  }
+                }
+              </style>
             <br>
         </div>
         <!-- Layout grid three colums start  -->
@@ -165,7 +175,13 @@
                         style="margin:40px;"  name="button"> Learn
                             More </button></a>
                 </div>
-
+                <style>
+                    @media (max-width:428px) {
+                      .second_section_card{
+                        display: none;
+                      }
+                    }
+                  </style>
             </div>
 
             <hr class="bg-secondary my-4">
